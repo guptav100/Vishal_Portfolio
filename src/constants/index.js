@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -12,16 +11,16 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    Applogo,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    Uber,
+    jarvis,
     carrent,
     jobit,
     tripguide,
+    openai,
     threejs,
   } from "../assets";
   
@@ -112,22 +111,21 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Pepcoding",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - September 2021",
+      title: "React Native Developer Intern",
+      company_name: "Appcul Technologies",
+      // icon: Appcul,
+      iconBg: "#E6DEDD",
+      date: "April-2023 - July 2023",
       points: [
-        "✔ Developing and maintaining web applications using React.js and other related technologies.",
-        "✔ Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "✔ Implementing responsive design and ensuring cross-browser compatibility.",
-        "✔ Participating in code reviews and providing constructive feedback to other developers.",
+        "Actively contributed to the development of mobile applications using React Native.",
+        "Executed responsive UI designs, maintaining consistency across devices.",
+        "Collaborated with cross-functional teams to resolve technical issues and optimize app performance"
       ],
     },
     {
       title: "React Developer",
       company_name: "Vedspace Ventures",
-      icon: tesla,
+      // icon: Vedspace,
       iconBg: "#E6DEDD",
       date: "August 2021 - November 2022",
       points: [
@@ -136,41 +134,60 @@ import {
         "✔ Implementing responsive design and ensuring cross-browser compatibility.",
         "✔ Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    }
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+      {
+        title: "Web Developer",
+        company_name: "Pepcoding",
+        // icon: Pepcoding,
+        iconBg: "#383E56",
+        date: "March 2020 - September 2021",
+        points: [
+          "✔ Developing and maintaining web applications using React.js and other related technologies.",
+          "✔ Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "✔ Implementing responsive design and ensuring cross-browser compatibility.",
+          "✔ Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+      }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Uber Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Integrated a frontend clone of Uber App using React Native, showcasing my ability to seamlessly integrate Api’sfunctionality into Mobile applications.",
+      tags: [
+        {
+          name: "JavaScipt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        }
+      ],
+      image: Uber,
+      source_code_link: "https://github.com/guptav100/Uber_Clone",
+    },{
+      name: "Swigato",
+      description:
+        "Swigato is a cross-platform application developed using React Native, enabling it to run on both iOS and Android devices",
+      tags: [
+        {
+          name: "JavaScipt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        }
+      ],
+      image: Applogo,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Open Ai Codex",
+      description:
+        "AI Based powerful search Engine which will search anything and answer it , even it is capable of writing codes and understand them ",
       tags: [
         {
           name: "react",
@@ -185,51 +202,65 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: openai,
+      source_code_link: "https://github.com/guptav100/Open_AI-Codex",
     },
     {
-      name: "Job IT",
+      name: "Hackerrank Automation",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An Automation project using Puppeteer and Node.js, I Tried to create logic for Automation using Chromium Browser ..",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Node.JS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Automation",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/guptav100/HackerRank-Automation",
     },
     {
-      name: "Trip Guide",
+      name: "File System Organiser",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A global command line application using node.js displays the tree view of the files in current directory, Also can organize the content of the directory in separate foldersdepending upon there extensions.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScipt",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Node.js",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        }
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Jarvis",
+      description:
+        "A global command line application using node.js displays the tree view of the files in current directory, Also can organize the content of the directory in separate foldersdepending upon there extensions.",
+      tags: [
+        {
+          name: "JavaScipt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        }
+      ],
+      image: jarvis,
+      source_code_link: "https://github.com/guptav100/Jarvis-main",
+    },
+    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
