@@ -249,12 +249,8 @@ import {
         "A global command line application using node.js displays the tree view of the files in current directory, Also can organize the content of the directory in separate foldersdepending upon there extensions.",
       tags: [
         {
-          name: "JavaScipt",
+          name: "python",
           color: "blue-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "green-text-gradient",
         }
       ],
       image: jarvis,

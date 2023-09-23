@@ -1,5 +1,5 @@
 import React from 'react'
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import {styles} from '../styles'
 import { services } from '../constants';
@@ -34,12 +34,12 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.dev variants={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className='ml-10  text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]' >
             Introduction
         </p>
         <h2 className='ml-10 text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]' >Overview</h2>
-      </motion.dev>
+      </motion.div>
 
       <motion.p variants={fadeIn("","",0.1,1)}
       className='ml-10 mr-10 mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
